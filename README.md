@@ -1,115 +1,78 @@
-# 🚀 Startup Resource Management System
+# 🚀 Startup Resource Management System (SRMS)
 
-A professional web-based Startup Resource Management System developed using Flask, Python, Bootstrap, JSON Storage, and Multithreading. The system helps startups efficiently manage team members, tasks, resources, and operational monitoring through a centralized dashboard.
+A professional web-based Startup Resource Management System built using **Flask, Python, Bootstrap, JSON storage, and multithreading**.  
+It helps startups manage **team members, tasks, resources, and reports** through a centralized dashboard.
+
+---
+
+## 📸 Project Preview
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Team Management
+![Team](screenshots/team.png)
+
+### Task Management
+![Tasks](screenshots/tasks.png)
+
+---
 
 ## 📌 Features
 
-### Dashboard
+### 📊 Dashboard
+- Total Team Members
+- Active Tasks
+- Completed Tasks
+- Resource Availability
+- Real-time statistics
 
-* Total Team Members
-* Active Tasks
-* Completed Tasks
-* Resource Availability
-* Real-Time Statistics
+### 👥 Team Management
+- Add members
+- View members
+- Delete members
+- Department & role tracking
 
-### Team Management
+### 📋 Task Management
+- Create tasks
+- Assign tasks to team members
+- Set priority levels
+- Mark tasks as completed
+- Track task progress
 
-* Add Members
-* View Members
-* Delete Members
-* Department & Role Tracking
+### 📦 Resource Management
+- Add resources
+- Track availability
+- Monitor usage
 
-### Task Management
+### 📈 Reports Module
+- Project overview
+- Team summary
+- Task analysis
+- Resource monitoring
 
-* Create Tasks
-* Assign Tasks
-* Set Priority Levels
-* Mark Tasks as Completed
-* Track Task Status
+---
 
-### Resource Management
+## 🧵 Multithreading Features
 
-* Add Resources
-* Track Resource Availability
-* Monitor Resource Usage
+This project uses Python threading for background operations:
 
-### Reports
+- Auto backup system
+- Deadline monitoring system
+- Resource monitoring system
 
-* Project Overview
-* Team & Task Summary
-* Resource Monitoring Summary
+---
 
-## 🧵 Multithreading Implementation
+## 🛠️ Tech Stack
 
-The application uses Python multithreading to perform background operations without affecting UI responsiveness:
+- Python
+- Flask
+- HTML5
+- CSS3
+- Bootstrap 5
+- JSON (for data storage)
+- Python Threading
 
-* Auto Backup Thread
-* Deadline Monitoring Thread
-* Resource Monitoring Thread
-
-## 🛠️ Technologies Used
-
-* Python
-* Flask
-* HTML5
-* CSS3
-* Bootstrap 5
-* JSON
-* Python Threading
+---
 
 ## 📂 Project Structure
-
-startup-resource-management-system/
-
-├── app.py
-
-├── storage.py
-
-├── threads.py
-
-├── data/
-
-│ ├── employees.json
-
-│ ├── tasks.json
-
-│ └── resources.json
-
-├── templates/
-
-├── static/
-
-└── README.md
-
-## ▶️ How to Run
-
-1. Install Flask
-
-```bash
-pip install flask
-```
-
-2. Run the application
-
-```bash
-python app.py
-```
-
-3. Open in browser
-
-```text
-http://127.0.0.1:5000
-```
-
-## 🔮 Future Enhancements
-
-* User Authentication
-* Database Integration (MySQL/PostgreSQL)
-* Email Notifications
-* PDF Report Generation
-* Cloud Deployment
-* Advanced Analytics Dashboard
-
-## 👨‍💻 Developed By
-
-Anmol Bansal
