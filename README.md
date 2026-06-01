@@ -15,6 +15,11 @@ It helps startups manage **team members, tasks, resources, and reports** through
 
 ### Task Management
 ![Tasks](Screenshots/TaskManagement.jpeg)
+### Resource Management
+![Resource](Screenshots/ResourceManagement.jpeg)
+
+### Reports
+![Resource](Screenshots/Report.jpeg)
 
 ---
 
