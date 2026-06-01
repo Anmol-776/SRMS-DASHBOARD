@@ -81,3 +81,32 @@ This project uses Python threading for background operations:
 ---
 
 ## 📂 Project Structure
+SRMS/
+│
+├── app.py
+├── storage.py
+├── threads.py
+│
+├── data/
+│   ├── employees.json
+│   ├── tasks.json
+│   └── resources.json
+│
+├── templates/
+├── static/
+│
+├── Dashboard.jpeg
+├── Team Management.jpeg
+├── Task Management.jpeg
+├── Resource Management.jpeg
+├── Reports.jpeg
+│
+└── README.md
+
+▶️ How to Run Locally
+1. Install dependencies
+pip install flask
+2. Run the application
+python app.py
+3. Open in browser
+http://127.0.0.1:5000
