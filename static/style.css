@@ -1,0 +1,141 @@
+body{
+    background:#f4f6f9;
+}
+
+.card{
+    border:none;
+    border-radius:16px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-6px);
+}
+
+.navbar-brand{
+    font-size:1.3rem;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight:700;
+}
+
+table{
+    background:white;
+    border-radius:12px;
+}
+
+.btn{
+    border-radius:10px;
+}
+
+.shadow{
+    box-shadow:0 4px 12px rgba(0,0,0,0.08)!important;
+}
+
+
+body{
+    background: linear-gradient(
+        135deg,
+        #eef2ff,
+        #f8fafc
+    );
+}
+
+.card{
+    border:none;
+    border-radius:18px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.btn{
+    border-radius:10px;
+}
+
+.bg-dark{
+    background:linear-gradient(
+        135deg,
+        #111827,
+        #1f2937
+    ) !important;
+}
+
+h1,h2,h3,h4,h5{
+    font-weight:700;
+}
+
+.card{
+    min-height:220px;
+}
+.module-card {
+    transition: 0.3s ease;
+    border-radius: 16px;
+}
+
+.module-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    background-color: #f8f9fa;
+}
+body {
+    background: #f4f6f9;
+}
+
+/* Smooth fade-in animation */
+.fade-in {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hero section upgrade */
+.hero-box {
+    background: linear-gradient(135deg, #1f1c2c, #928dab);
+    border-radius: 20px;
+    padding: 50px;
+    color: white;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+}
+
+/* Cards hover premium feel */
+.card {
+    transition: all 0.3s ease;
+    border-radius: 16px;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.15);
+}
+
+/* Module cards glow */
+.module-card:hover {
+    background: white;
+    transform: translateY(-10px) scale(1.02);
+}
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .card {
+    background-color: #1f1f1f;
+    color: white;
+}
+
+.dark-mode .hero-box {
+    background: linear-gradient(135deg, #000000, #434343);
+}

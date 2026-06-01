@@ -1,0 +1,10 @@
+[
+    {
+        "resource_name": "Laptop",
+        "quantity": "10"
+    },
+    {
+        "resource_name": "Laptop",
+        "quantity": "20"
+    }
+]
