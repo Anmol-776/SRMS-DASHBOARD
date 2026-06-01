@@ -15,11 +15,12 @@ It helps startups manage **team members, tasks, resources, and reports** through
 
 ### Task Management
 ![Tasks](Screenshots/TaskManagement.jpeg)
+
 ### Resource Management
 ![Resource](Screenshots/ResourceManagement.jpeg)
 
 ### Reports
-![Resource](Screenshots/Reports.jpeg)
+![Reports](Screenshots/Reports.jpeg)
 
 ---
 
@@ -81,14 +82,57 @@ This project uses Python threading for background operations:
 ---
 
 ## 📂 Project Structure
-startup-resource-management-system/ ├── app.py ├── storage.py ├── threads.py ├── data/ │ ├── employees.json │ ├── tasks.json │ └── resources.json ├── templates/ ├── static/ └── README.md ## ▶️ How to Run 1. Install Flask
-bash
-pip install flask
-2. Run the application
-bash
-python app.py
-3. Open in browser
-text
-http://127.0.0.1:5000
-## 🔮 Future Enhancements * User Authentication * Database Integration (MySQL/PostgreSQL) * Email Notifications * PDF Report Generation * Cloud Deployment * Advanced Analytics Dashboard ## 👨‍💻 Developed By Anmol Bansal =======
 
+```
+startup-resource-management-system/
+│
+├── app.py
+├── storage.py
+├── threads.py
+│
+├── data/
+│   ├── employees.json
+│   ├── tasks.json
+│   └── resources.json
+│
+├── templates/
+├── static/
+│
+└── README.md
+```
+
+---
+
+## ▶️ How to Run
+
+### 1. Install Flask
+```bash
+pip install flask
+```
+
+### 2. Run the application
+```bash
+python app.py
+```
+
+### 3. Open in browser
+```
+http://127.0.0.1:5000
+```
+
+---
+
+## 🔮 Future Enhancements
+
+- User Authentication
+- Database Integration (MySQL/PostgreSQL)
+- Email Notifications
+- PDF Report Generation
+- Cloud Deployment
+- Advanced Analytics Dashboard
+
+---
+
+## 👨‍💻 Developed By
+
+**Anmol Bansal**
