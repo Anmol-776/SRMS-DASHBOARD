@@ -19,7 +19,7 @@ It helps startups manage **team members, tasks, resources, and reports** through
 ![Resource](Screenshots/ResourceManagement.jpeg)
 
 ### Reports
-![Resource](Screenshots/Report.jpeg)
+![Resource](Screenshots/Reports.jpeg)
 
 ---
 
