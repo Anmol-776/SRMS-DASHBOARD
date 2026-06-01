@@ -8,13 +8,13 @@ It helps startups manage **team members, tasks, resources, and reports** through
 ## 📸 Project Preview
 
 ### Dashboard
-![Dashboard](Screenshots/dashboard.png)
+![Dashboard](Screenshots/dashboard.jpeg)
 
 ### Team Management
-![Team](Screenshots/team.png)
+![Team](Screenshots/team.jpeg)
 
 ### Task Management
-![Tasks](Screenshots/tasks.png)
+![Tasks](Screenshots/tasks.jpeg)
 
 ---
 
